@@ -3,7 +3,7 @@ This project is an example implementation of the [Mixpanel HTTP API](https://mix
 
 # Setup
 1. yarn install
-2. export MIXPANEL_API_TOKEN = <YOUR MIXPANEL API TOKEN>
+2. export MIXPANEL_API_TOKEN = [YOUR-MIXPANEL-API-TOKEN]
 3. yarn run compile
 4. yarn run start
 
