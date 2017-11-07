@@ -56,3 +56,4 @@ node_modules
 
 /coverage
 /third-party
+/dist
