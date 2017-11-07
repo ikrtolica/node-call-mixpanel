@@ -3,7 +3,7 @@ This project is an example implementation of the [Mixpanel HTTP API](https://mix
 
 See it in action:
 
-[Mixpanel HTTP Node](https://user-images.githubusercontent.com/1186878/32517024-0e61ab1e-c3ba-11e7-92a5-de7e26b8cad1.gif)
+![Mixpanel HTTP Node](https://user-images.githubusercontent.com/1186878/32517024-0e61ab1e-c3ba-11e7-92a5-de7e26b8cad1.gif)
 
 # Setup
 1. yarn install
