@@ -26,6 +26,6 @@ The majority of the work is done in this code:
   return callApi(url, { method: 'POST' });
 ```
 
-callAPi returns a promise, that is resolved once the call call to fetch completes successfully.
+`callAPi` returns a promise, that is resolved once the call to `fetch` completes successfully.
 
 There is some simple error checking.  This project was a take-home assignment for Segment, which you should be using instead of hacking up HTTP API calls on your own.
