@@ -13,6 +13,8 @@ See it in action:
 
 The API token is required for this to work, obvi.  You can get yours from the Mixpanel project setup screen (copy it from the init call in the script they give you).
 
+Not sure if this is intentional or a bug, but it looks like the Mixpanel HTTP API allows you to pass *any* token value and still get a 1 back from the API; looks like they do not validate the token in each request, but just return success and ignore your request.
+
 # Overview
 This project runs in node, using isomorphic-fetch to call the Mixpanel HTTP API. This reads a JSON payload from data.json, adds your Mixpanel token from the environment settings (see above), base64 encodes the payload (as per the Mixpanel spec) and then sends a HTTP POST request to the Mixpanel API endpoint, which is configured in ./src/api/index.js under API_SERVER_URL.
 
