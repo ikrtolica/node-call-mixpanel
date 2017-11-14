@@ -7,8 +7,7 @@ var hasProps = R.has('properties');
 var hasToken = R.has('token');
 
 export function track(data, token) {
-  if(hasProps(data)) {
-    if(!hasToken(data.properties)) {
+  if(hasProps(data) && !hasToken(data.properties)) {
       data.properties.token = token;
     }
   } else {
